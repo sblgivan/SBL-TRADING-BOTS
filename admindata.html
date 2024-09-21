@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - SBL Trading Bots</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Admin Panel</h1>
+    <nav>
+      <a href="homepage.html">Home</a>
+      <a href="usersdata.html">Users</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Manage Content</h2>
+    <form id="upload-form">
+      <input type="file" accept="image/*" required>
+      <textarea placeholder="Write a description..." required></textarea>
+      <button type="submit">Upload</button>
+    </form>
+
+    <div id="uploaded-content">
+      <!-- Admin uploaded content will appear here -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 SBL Trading Bots</p>
+  </footer>
+</body>
+</html>
